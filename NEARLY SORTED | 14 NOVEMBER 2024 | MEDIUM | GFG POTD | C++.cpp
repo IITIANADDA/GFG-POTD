@@ -11,3 +11,4 @@ void nearlySorted(vector<int>& arr, int k) {
             if (i + k + 1 < n)
                 pq.push(arr[i + 1 + k]);
         }
+}
